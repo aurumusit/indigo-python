@@ -6,7 +6,7 @@ import indigo
 # Load a molecule from a Molfile
 def load_molecule_from_file():
     indigo_instance = indigo.Indigo()
-    return indigo_instance.loadMoleculeFromFile("sample_mol.mol")
+    return indigo_instance.loadMoleculeFromFile("simple.mol")
     
 # Create a submolecule from a list of atom indices
 def create_submolecule(molecule, atom_indices):
